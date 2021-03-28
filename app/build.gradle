@@ -16,8 +16,14 @@ android {
     }
 
     buildTypes {
-        release {
+        all {
+            buildConfigField("String", "BASE_URL", "\"https://food2fork.ca/api/recipe/\"")
+        }
+        debug {
             minifyEnabled false
+        }
+        release {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -30,11 +36,39 @@ android {
     }
 }
 
-dependencies {
+def androidXCore = '1.3.2'
+def appCompat = '1.2.0'
+def constraint = '2.0.4'
+def preference = '1.1.1'
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+def material = '1.3.0'
+
+def coroutines = '1.4.3'
+def retrofit = "2.9.0"
+def okHttp = '4.9.0'
+def koin = '2.2.2'
+
+dependencies {
+    // AndroidX
+    implementation "androidx.core:core-ktx:$androidXCore"
+    implementation "androidx.appcompat:appcompat:$appCompat"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint"
+    implementation "androidx.preference:preference-ktx:$preference"
+
+    implementation "com.google.android.material:material:$material"
+
+    // Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+
+    // OkHttp
+    implementation "com.squareup.okhttp3:okhttp:$okHttp"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okHttp"
+
+    // Koin
+    implementation "org.koin:koin-android:$koin"
 }
