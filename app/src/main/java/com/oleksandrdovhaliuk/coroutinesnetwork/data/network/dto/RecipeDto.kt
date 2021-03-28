@@ -1,4 +1,4 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.data.network.dto
+package com.oleksandrdovhaliuk.coroutinesnetwork.data.network.dto
 
 import com.google.gson.annotations.SerializedName
 

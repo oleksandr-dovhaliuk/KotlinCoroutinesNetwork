@@ -1,4 +1,4 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.data.preference
+package com.oleksandrdovhaliuk.coroutinesnetwork.data.preference
 
 interface PrefHelper {
     fun setAuthToken(authToken: String)

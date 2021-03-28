@@ -1,8 +1,8 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.data.network
+package com.oleksandrdovhaliuk.coroutinesnetwork.data.network
 
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.dto.RecipeDto
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.dto.RecipeQueryResponse
-import com.oleksandrdovhaliuk.corotinesnetwork.data.preference.PrefHelper
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.dto.RecipeDto
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.dto.RecipeQueryResponse
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.preference.PrefHelper
 
 class NetworkManager(
     private val recipeApi: RecipeApi,

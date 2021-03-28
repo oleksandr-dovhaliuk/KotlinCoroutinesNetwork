@@ -1,7 +1,7 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.data.network
+package com.oleksandrdovhaliuk.coroutinesnetwork.data.network
 
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.dto.RecipeDto
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.dto.RecipeQueryResponse
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.dto.RecipeDto
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.dto.RecipeQueryResponse
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query

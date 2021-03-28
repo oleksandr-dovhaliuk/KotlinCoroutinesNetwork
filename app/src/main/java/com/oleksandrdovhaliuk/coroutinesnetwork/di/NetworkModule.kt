@@ -1,7 +1,7 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.di
+package com.oleksandrdovhaliuk.coroutinesnetwork.di
 
-import com.oleksandrdovhaliuk.corotinesnetwork.BuildConfig
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.RecipeApi
+import com.oleksandrdovhaliuk.coroutinesnetwork.BuildConfig
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.RecipeApi
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module

@@ -1,9 +1,9 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.data.preference
+package com.oleksandrdovhaliuk.coroutinesnetwork.data.preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
-import com.oleksandrdovhaliuk.corotinesnetwork.util.EMPTY_STRING
+import com.oleksandrdovhaliuk.coroutinesnetwork.util.EMPTY_STRING
 
 class PrefManager(context: Context) : PrefHelper {
 

@@ -1,12 +1,12 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.ui
+package com.oleksandrdovhaliuk.coroutinesnetwork.ui
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.oleksandrdovhaliuk.corotinesnetwork.R
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.NetworkHelper
-import com.oleksandrdovhaliuk.corotinesnetwork.data.network.dto.RecipeDto
-import com.oleksandrdovhaliuk.corotinesnetwork.data.preference.PrefHelper
+import com.oleksandrdovhaliuk.coroutinesnetwork.R
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.NetworkHelper
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.network.dto.RecipeDto
+import com.oleksandrdovhaliuk.coroutinesnetwork.data.preference.PrefHelper
 import kotlinx.coroutines.*
 import org.koin.android.ext.android.inject
 

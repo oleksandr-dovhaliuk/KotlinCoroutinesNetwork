@@ -1,8 +1,8 @@
-package com.oleksandrdovhaliuk.corotinesnetwork.app
+package com.oleksandrdovhaliuk.coroutinesnetwork.app
 
 import android.app.Application
-import com.oleksandrdovhaliuk.corotinesnetwork.di.appModule
-import com.oleksandrdovhaliuk.corotinesnetwork.di.networkModule
+import com.oleksandrdovhaliuk.coroutinesnetwork.di.appModule
+import com.oleksandrdovhaliuk.coroutinesnetwork.di.networkModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
